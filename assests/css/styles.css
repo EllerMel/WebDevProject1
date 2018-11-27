@@ -101,6 +101,10 @@ body {
      color: grey;
  }
 
+ .black{
+    color: black;
+}
+
 .big{
     font-size: 2rem;
 }
