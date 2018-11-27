@@ -1,0 +1,137 @@
+body {
+    margin: 0px;
+ }
+ 
+ .header {
+    text-align: center;
+}
+ 
+ .nav {
+    background-color: gray;
+    padding: 1.5rem;
+ }
+
+ li a{
+     color: white;
+ }
+ 
+ .nav ul li {
+    display: inline;
+    margin: 1.5rem;
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif
+ }
+ 
+ .figure {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+ }
+
+ .h1 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    font-family: 'Raleway', sans-serif
+ }
+
+ .h2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif
+ }
+
+ .btn{
+     text-decoration:none;
+     background-color: white;
+     color: #888;
+     border-radius: 5px;
+     display: inline-block;
+     margin: 10px;
+     font-size: 18px;
+     text-transform: uppercase;
+     font-weight: 600;
+     padding: 10px 5px;
+ }
+
+ #Email {
+    margin-left: 15%;
+    margin-right: auto;
+    padding: .5rem;
+    Color: red ;
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif
+}
+
+#Git {
+    margin-left: 16%;
+    margin-right: auto;
+    padding: .5rem;
+    Color: green ;
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif
+}
+
+#Linked {
+    margin-left: 10%;
+    margin-right: auto;
+    padding: .5rem;
+    Color: black ;
+    font-size: 1.25rem;
+    font-family: 'Raleway', sans-serif
+}
+
+ section {
+    background-color: #efefef;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5rem;
+    font-family: 'Raleway', sans-serif
+ }
+
+ .blue{
+     color: blue;
+ }
+
+ .grey{
+     color: grey;
+ }
+
+ .black{
+    color: black;
+}
+
+.big{
+    font-size: 2rem;
+}
+
+ .fa-circle{
+    color: rgb(112, 48, 216);
+ }
+
+ .column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+ .footer {
+    margin-bottom: 100px;
+    font-family: 'Raleway', sans-serif
+ }
